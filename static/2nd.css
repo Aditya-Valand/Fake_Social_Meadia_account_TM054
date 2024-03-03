@@ -1,0 +1,210 @@
+Reset CSS
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    /* opacity: 0.5; */
+
+}
+
+/* .background{  */
+     /* z-index: 1; */
+     /* opacity: 0.9; */
+     /* display: block;
+     max-width: 100%; */
+     /* height: auto; */
+     /* width: 100%; */
+     /* position:static; */
+/* }  */
+/* .background img::after{ 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}  */
+/* button{
+   margin: 10px;
+   padding: 5px;
+}
+lable{
+    margin: 10px;
+    padding: 5px;
+} */
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    background-image: url('bg-2.jpg');
+    background-position: center;
+    background-size: cover;
+    /* min-width: 100%;
+    min-height: 100%; */
+    /* opacity: 0.8; */
+    /* position: absolute; */
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    /* padding: 0 20px; */
+    padding: 20px 0;
+    /* margin-top: 20px; */
+    
+}
+.container {
+    flex-grow: 1; /* Grow to fill remaining space */
+}
+h1{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+
+header {
+    /* background-color: #333; */
+    color:white;
+    padding: 20px 0;
+}
+nav{
+    /* background-color:black; */
+    padding: 15px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 45px;
+    /* position: absolute; */
+}
+
+nav a{
+    font-size: 50px;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin-top: 30px;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 100px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.right {
+    position: absolute;
+    right: 20px;
+    top: 50px;
+    display: inline-block;
+    /* border: 2px solid grey; */
+    /* color: beige; */
+    font-size: 90px;
+    font-weight: bold;
+    /* padding: 20px 20px; */
+    background-position: center;
+    /* max-width: 400px; */
+}
+
+.login-button {
+    border: none;
+    background-color: rgb(36, 208, 208);
+    color: rgb(0, 0, 0);
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    /* transition-duration: 0.4s; */
+    /* margin-right: 100px; */
+    background-position: center;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    
+  }
+  
+  .login-button:hover {
+    background-color: navy; /* Darker green */
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+main {
+    padding: 50px 0;
+}
+
+#hero {
+    /* background-image: url('background.jpg');  */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+/* h2{
+    color: black;
+}
+p{
+    color: black;
+} */
+#hero h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+#hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+#detection-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#detection-form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    color: black;
+}
+
+#detection-form button {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+#detection-form button:hover{
+    background-color: gray;
+    font-size: 25px;
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(41, 205, 194);
+    color: black;
+    text-align: center;
+    padding: 1px 0;
+}
