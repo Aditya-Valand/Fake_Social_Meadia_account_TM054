@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instagram Login</title>
+  <style>
+    body {
+        background-image:url('bg-2.jpg');
+        background-size: cover;
+      font-family: Arial, sans-serif;
+      background-color: #fafafa;
+    }
+    .container {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      margin-top: 100px;
+    }
+    h2 {
+      text-align: center;
+      color: #262626;
+    }
+    input[type="text"],
+    input[type="password"] {
+      width: 95%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #dbdbdb;
+      border-radius: 4px;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      background-color: #3897f0;
+      border: none;
+      border-radius: 4px;
+      color: #fff;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #1e88e5;
+    }
+    .text-center {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Instagram Login</h2>
+    <form action="/login" method="post">
+      <div>
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required>
+      </div>
+      <div>
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required>
+      </div>
+      <div>
+          <button type="submit">Log In</button>
+      </div>
+  </form>
+  
+    <!-- <p class="text-center">Don't have an account? <a href="#">Sign up</a></p> -->
+  </div>
+</body>
+</html>
